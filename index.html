@@ -10,6 +10,7 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Abdur Rahim | CV</title>
   </head>
@@ -21,15 +22,15 @@
         class="header__image"
       />
       <div class="header__content">
-        <h2>Abdur Rahim</h2>
-        <p>Fullstack JavaScript Developer</p>
+        <h2 data-aos="fade-right">Abdur Rahim</h2>
+        <p data-aos="fade-left">Fullstack JavaScript Developer</p>
       </div>
-      <a class="header__download" href="assets/cv.pdf">
+      <a class="header__download" href="assets/cv.pdf" data-aos="fade-down">
         <i class="fas fa-download"></i> Download CV
       </a>
     </div>
     <div class="section">
-      <div class="section__left">
+      <div class="section__left" data-aos="zoom-in-down">
         <div>
           <h4>Personal Profile</h4>
           <div class="line"></div>
@@ -67,7 +68,7 @@
           <p>Sekolah Tinggi Agama Islam Mempawah, 2017</p>
         </div>
       </div>
-      <div class="section__right">
+      <div class="section__right" data-aos="zoom-in-down">
         <div>
           <h4>Skills</h4>
           <div class="line"></div>
@@ -85,14 +86,26 @@
             <h5>Fulltime Freelancer</h5>
             <p class="date">Dec 2020 - Present</p>
             <ul>
-              <li>HTML, CSS, Bootstrap, JavaScript</li>
-              <li>ReactJs, NextJs, VueJs, React Native</li>
-              <li>NodeJs/ExpressJs</li>
-              <li>MongoDB/MySQL</li>
+              <li>
+                Working as a frontend developer using reactjs, nextjs, vuejs,
+                react native
+              </li>
+              <li>
+                Working as a backend developer using nodejs/expressjs and
+                mongodb/mysql
+              </li>
+              <li>
+                Working as a fullstack developer using MERN stack and MEVN stack
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>
