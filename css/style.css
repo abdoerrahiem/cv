@@ -216,4 +216,8 @@ body {
   .section__right {
     width: 100%;
   }
+
+  .section__right > div {
+    margin-bottom: 50px;
+  }
 }
